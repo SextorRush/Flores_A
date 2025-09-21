@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Flores Amarillas 💛</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Tailwind (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fuente opcional (sistema) y tu CSS -->
+  <link rel="stylesheet" href="flores.css">
+  <meta name="description" content="Un ramo digital de flores amarillas para vos.">
+</head>
+<body class="min-h-dvh bg-gradient-to-b from-yellow-50 to-amber-100 text-stone-800 selection:bg-amber-200/70">
+
+  <!-- Fondo decorativo sutil -->
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10">
+    <!-- Motas suaves -->
+    <div class="absolute -top-16 -right-16 w-72 h-72 rounded-full bg-amber-200/40 blur-3xl"></div>
+    <div class="absolute bottom-0 left-10 w-64 h-64 rounded-full bg-yellow-200/40 blur-3xl"></div>
+    <div class="absolute top-1/4 right-1/3 w-40 h-40 rounded-full bg-amber-300/30 blur-2xl"></div>
+  </div>
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10" style="opacity:.5; background-image: radial-gradient(rgba(245,158,11,0.08) 1px, transparent 1.6px); background-size: 28px 28px;"></div>
+  <!-- Patrón de florcitas muy pequeñas -->
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10"
+       style="opacity:.09;
+              background-repeat: repeat, repeat;
+              background-size: 36px 36px, 36px 36px;
+              background-position: 0 0, 18px 18px;
+              background-image:
+                url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cg fill=%22%23FDE68A%22%3E%3Ccircle cx=%2212%22 cy=%224%22 r=%223%22/%3E%3Ccircle cx=%2212%22 cy=%2220%22 r=%223%22/%3E%3Ccircle cx=%224%22 cy=%2212%22 r=%223%22/%3E%3Ccircle cx=%2220%22 cy=%2212%22 r=%223%22/%3E%3Ccircle cx=%2217%22 cy=%227%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%222%22 fill=%22%23f59e0b%22/%3E%3C/svg%3E'),
+                url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cg fill=%22%23FDE68A%22%3E%3Ccircle cx=%2212%22 cy=%224%22 r=%222.6%22/%3E%3Ccircle cx=%2212%22 cy=%2220%22 r=%222.6%22/%3E%3Ccircle cx=%224%22 cy=%2212%22 r=%222.6%22/%3E%3Ccircle cx=%2220%22 cy=%2212%22 r=%222.6%22/%3E%3Ccircle cx=%228%22 cy=%228%22 r=%222.6%22/%3E%3C/g%3E%3Ccircle cx=%2212%22 cy=%2212%22 r=%221.8%22 fill=%22%23f59e0b%22/%3E%3C/svg%3E');"></div>
+
+  <!-- Header -->
+  <header class="container mx-auto px-4 py-6 flex flex-col items-center justify-center gap-4 text-center">
+    <h1 class="text-3xl font-semibold tracking-tight">
+      🌼 <span class="align-middle">Flores Amarillas</span>
+    </h1>
+    <nav>
+      <ul class="flex flex-wrap justify-center gap-3 text-base">
+        <li>
+          <a href="#para-ti" class="inline-flex items-center rounded-full px-4 py-2 bg-white/80 text-amber-700 font-medium ring-1 ring-amber-300 hover:bg-amber-100 hover:ring-amber-400 shadow-sm shadow-amber-100 backdrop-blur-sm transition">
+            Para ti
+          </a>
+        </li>
+        <li>
+          <a href="#galeria" class="inline-flex items-center rounded-full px-4 py-2 bg-white/80 text-amber-700 font-medium ring-1 ring-amber-300 hover:bg-amber-100 hover:ring-amber-400 shadow-sm shadow-amber-100 backdrop-blur-sm transition">
+            Galería
+          </a>
+        </li>
+        <li>
+          <a href="#mensaje" class="inline-flex items-center rounded-full px-4 py-2 bg-white/80 text-amber-700 font-medium ring-1 ring-amber-300 hover:bg-amber-100 hover:ring-amber-400 shadow-sm shadow-amber-100 backdrop-blur-sm transition">
+            Mensaje
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="container mx-auto px-4 py-14 text-center">
+    <div class="mx-auto max-w-2xl">
+      <p class="uppercase tracking-widest text-amber-600 text-sm">PARA LA PEROSNA A LA QUE AMO</p>
+      <h2 class="mt-2 text-4xl sm:text-5xl font-bold leading-tight">
+        Un ramito de flores amarillas<br>hecho con mucho amor
+      </h2>
+      <p class="mt-4 text-lg sm:text-xl text-stone-600">
+        Te amo 🌼
+      </p>
+    </div>
+
+    <!-- Botón principal que redirige a Web-Flores -->
+    <div class="mt-10 flex justify-center">
+      <a href="Web-Flores/Index.html"
+         class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/70 ring-1 ring-amber-300/70 hover:from-amber-600 hover:to-yellow-600 active:scale-[0.99] transition">
+        🌼 Tus Flores
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección “Para ti” -->
+  <section id="para-ti" class="container mx-auto px-4 py-14">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div class="rounded-3xl bg-white/70 p-6 shadow-lg">
+        <h3 class="text-3xl font-semibold">Para vos 💛</h3>
+        <p class="mt-3 text-lg text-stone-700 leading-relaxed">
+          Gracias por ser esa persona que me ilumina en mis dias apagados, gracias por ser quien sos, tan y como sos te amo y nunca voy a dejar de hacerlo.
+        </p>
+        <p class="mt-3 text-lg text-stone-700">
+          Gracias por ser mi lugar favorito en el mundo.
+        </p>
+      </div>
+      <div class="rounded-3xl border border-amber-200/70 p-6 bg-amber-50/60">
+        <ul class="space-y-2 text-stone-700 text-lg">
+          <li>🌼 Siempre a tu lado</li>
+          <li>🌼 Simpre presente en mi</li>
+          <li>🌼 Siempre juntos</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería simple -->
+  <section id="galeria" class="container mx-auto px-4 py-14">
+    <h3 class="text-3xl font-semibold mb-6">Galería</h3>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+      <figure class="card"><img class="card-img" src="sources/1.jpeg" alt="Foto 1 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/2.JPG" alt="Foto 2 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/3.JPG" alt="Foto 3 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/4.JPG" alt="Foto 4 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/5.JPG" alt="Foto 5 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/6.JPG" alt="Foto 6 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/7.JPG" alt="Foto 7 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/8.JPG" alt="Foto 8 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/9.JPG" alt="Foto 9 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/10.JPG" alt="Foto 10 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/11.JPG" alt="Foto 11 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/12.jpeg" alt="Foto 12 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/13.jpeg" alt="Foto 13 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/14.jpeg" alt="Foto 14 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/15.jpeg" alt="Foto 15 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/16.jpeg" alt="Foto 16 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/17.jpeg" alt="Foto 17 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/18.jpeg" alt="Foto 18 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/19.jpeg" alt="Foto 19 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/20.jpeg" alt="Foto 20 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/21.jpeg" alt="Foto 21 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/22.jpeg" alt="Foto 22 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/23.jpeg" alt="Foto 23 - Flor amarilla"></figure>
+      <figure class="card"><img class="card-img" src="sources/24.jpeg" alt="Foto 24 - Flor amarilla"></figure>
+    </div>
+    
+  </section>
+
+  <!-- Mensaje final -->
+  <section id="mensaje" class="container mx-auto px-4 py-16">
+    <div class="rounded-3xl bg-white/80 p-8 shadow-lg text-center">
+      <blockquote class="text-2xl leading-relaxed">
+        “Si el sol tuviera pétalos, serían flores amarillas.
+        Gracias por ser mi sol.”
+      </blockquote>
+      <p class="mt-6 text-stone-600">Con amor, santi 💛</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="container mx-auto px-4 py-10 text-center text-base text-stone-500">
+    © <span id="year"></span> Para vos.
+  </footer>
+
+  <!-- Año sin JS adicional (nos apoyamos en Tailwind y una pequeña técnica CSS en flores.css) -->
+</body>
+</html>
